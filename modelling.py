@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 
 # Set up DagsHub for MLflow tracking
 dagshub.init(
-    repo_owner="Rahmathidayat4299", repo_name="BUILD-MODEL", mlflow=True
+    repo_owner="Rahmathidayat4299", repo_name="MSML-BUILDMODEL", mlflow=True
 )
 mlflow.set_experiment("Diabetes Health Basics")
 
