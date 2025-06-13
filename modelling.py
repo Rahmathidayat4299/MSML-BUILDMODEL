@@ -6,16 +6,16 @@ from sklearn.metrics import accuracy_score
 
 # Set up DagsHub for MLflow tracking
 dagshub.init(
-    repo_owner="patuh", repo_name="MSML-BUILDMODEL", mlflow=True
+    repo_owner="Rahmathidayat4299", repo_name="BUILD-MODEL", mlflow=True
 )
-mlflow.set_experiment("Graduate indicators Basics")
+mlflow.set_experiment("Diabetes Health Basics")
 
 # Enable MLflow autologging for LightGBM
 mlflow.lightgbm.autolog()
 
 # Load data
-train_df = pd.read_csv("Graduate_Indicators_Preprocessing/train_processed.csv")
-test_df = pd.read_csv("Graduate_Indicators_Preprocessing/test_processed.csv")
+train_df = pd.read_csv("Graduate_Health_Indicators_Preprocessing/train_processed.csv")
+test_df = pd.read_csv("Graduate_Health_Indicators_Preprocessing/test_processed.csv")
 
 X_train = train_df.drop(columns="Status")
 y_train = train_df["Status"]
