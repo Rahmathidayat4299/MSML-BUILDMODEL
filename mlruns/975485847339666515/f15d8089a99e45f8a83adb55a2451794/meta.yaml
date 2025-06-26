@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/975485847339666515/f15d8089a99e45f8a83adb55a2451794/artifacts
+end_time: 1750057376954
+entry_point_name: ''
+experiment_id: '975485847339666515'
+lifecycle_stage: active
+run_id: f15d8089a99e45f8a83adb55a2451794
+run_name: RandomForest_Baseline_Local
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750057335074
+status: 3
+tags: []
+user_id: hrahm

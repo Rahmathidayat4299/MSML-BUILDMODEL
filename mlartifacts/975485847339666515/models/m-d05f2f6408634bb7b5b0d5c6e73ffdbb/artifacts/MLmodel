@@ -1,0 +1,42 @@
+artifact_path: mlflow-artifacts:/975485847339666515/models/m-d05f2f6408634bb7b5b0d5c6e73ffdbb/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: m-d05f2f6408634bb7b5b0d5c6e73ffdbb
+model_size_bytes: 17228256
+model_uuid: m-d05f2f6408634bb7b5b0d5c6e73ffdbb
+prompts: null
+run_id: f15d8089a99e45f8a83adb55a2451794
+signature:
+  inputs: '[{"type": "double", "name": "x0", "required": true}, {"type": "double",
+    "name": "x1", "required": true}, {"type": "double", "name": "x2", "required":
+    true}, {"type": "double", "name": "x3", "required": true}, {"type": "double",
+    "name": "x4", "required": true}, {"type": "double", "name": "x5", "required":
+    true}, {"type": "double", "name": "x6", "required": true}, {"type": "double",
+    "name": "x7", "required": true}, {"type": "double", "name": "x8", "required":
+    true}, {"type": "double", "name": "x10", "required": true}, {"type": "double",
+    "name": "x11", "required": true}, {"type": "double", "name": "x12", "required":
+    true}, {"type": "double", "name": "x13", "required": true}, {"type": "double",
+    "name": "x14", "required": true}, {"type": "double", "name": "x17", "required":
+    true}, {"type": "double", "name": "x18", "required": true}, {"type": "double",
+    "name": "x19", "required": true}, {"type": "double", "name": "x20", "required":
+    true}, {"type": "double", "name": "x21", "required": true}, {"type": "double",
+    "name": "x22", "required": true}, {"type": "double", "name": "x23", "required":
+    true}, {"type": "double", "name": "x24", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-16 07:02:18.596583'
